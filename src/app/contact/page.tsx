@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -39,10 +39,6 @@ export default function ContactPage() {
                           </span>
                         </div>
                         <div className="flex items-start">
-                          <Phone className="mr-3 h-5 w-5 text-[#D4AF37]" />
-                          <span className="text-gray-600">{office.phone}</span>
-                        </div>
-                        <div className="flex items-start">
                           <Mail className="mr-3 h-5 w-5 text-[#D4AF37]" />
                           <span className="text-gray-600">{office.email}</span>
                         </div>
@@ -66,7 +62,6 @@ export default function ContactPage() {
                         </h3>
                         <p className="text-gray-600">{contact.name}</p>
                         <p className="text-gray-600">{contact.email}</p>
-                        <p className="text-gray-600">{contact.phone}</p>
                       </div>
                     ))}
                   </div>
@@ -117,20 +112,6 @@ export default function ContactPage() {
                     <input
                       type="email"
                       id="email"
-                      className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#D4AF37] focus:outline-none"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="mb-1 block text-sm font-medium text-gray-700"
-                    >
-                      Phone
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
                       className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#D4AF37] focus:outline-none"
                       required
                     />
@@ -283,24 +264,21 @@ export default function ContactPage() {
 // Data
 const offices = [
   {
-    location: "New York (Headquarters)",
-    address: "1234 Legal Avenue, Suite 500, New York, NY 10001",
-    phone: "(555) 123-4567",
-    email: "newyork@harrisonblackwell.com",
+    location: "Spain Office",
+    address: "Madrid, Spain",
+    email: "info@stevenhamsworth.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM",
   },
   {
-    location: "Boston",
-    address: "567 Commonwealth Drive, 8th Floor, Boston, MA 02215",
-    phone: "(555) 234-5678",
-    email: "boston@harrisonblackwell.com",
+    location: "Barcelona",
+    address: "Barcelona, Spain",
+    email: "info@stevenhamsworth.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM",
   },
   {
-    location: "Washington D.C.",
-    address: "789 Constitution Ave, Suite 300, Washington, D.C. 20001",
-    phone: "(555) 345-6789",
-    email: "dc@harrisonblackwell.com",
+    location: "Valencia",
+    address: "Valencia, Spain",
+    email: "info@stevenhamsworth.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM",
   },
 ];
@@ -308,27 +286,23 @@ const offices = [
 const practiceContacts = [
   {
     area: "Corporate Law",
-    name: "Jonathan Harrison",
-    email: "j.harrison@harrisonblackwell.com",
-    phone: "(555) 123-4567 ext. 101",
+    name: "Steven Hemsworth",
+    email: "steven@stevenhamsworth.com",
   },
   {
     area: "Litigation",
-    name: "Elizabeth Blackwell",
-    email: "e.blackwell@harrisonblackwell.com",
-    phone: "(555) 123-4567 ext. 102",
+    name: "Steven Hemsworth",
+    email: "steven@stevenhamsworth.com",
   },
   {
     area: "Real Estate Law",
     name: "Michael Reynolds",
-    email: "m.reynolds@harrisonblackwell.com",
-    phone: "(555) 123-4567 ext. 103",
+    email: "steven@stevenhamsworth.com",
   },
   {
     area: "Intellectual Property",
     name: "Sarah Chen",
-    email: "s.chen@harrisonblackwell.com",
-    phone: "(555) 123-4567 ext. 104",
+    email: "steven@stevenhamsworth.com",
   },
 ];
 
@@ -366,7 +340,7 @@ const faqs = [
   {
     question: "Do you offer virtual consultations?",
     answer:
-      "Yes, we offer virtual consultations via video conference or telephone for clients who prefer remote meetings. Our secure platforms ensure confidentiality while providing the convenience of meeting from your home or office.",
+      "Yes, we offer virtual consultations via secure video conference for clients who prefer remote meetings. Our secure platforms ensure confidentiality while providing the convenience of meeting from your home or office.",
   },
   {
     question: "How quickly can I expect a response to my inquiry?",

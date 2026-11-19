@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <Link href="/" className="mr-6 flex items-center">
-            <span className="text-xl font-bold text-[#0A2342]">Harrison, Blackwell & Associates</span>
+            <span className="text-xl font-bold text-[#0A2342]">Steven Hamsworth & Asociados</span>
           </Link>
         </div>
 

@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import {
   ChevronRight,
-  Phone,
   Mail,
   MapPin,
   Clock,
@@ -112,7 +111,7 @@ export default function Home() {
                   A Legacy of Legal Excellence Since 1998
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
-                  For over two decades, Harrison, Blackwell & Associates has
+                  For over two decades, Steven Hamsworth & Asociados has
                   been providing exceptional legal representation to individuals
                   and businesses throughout the region. Our firm was founded on
                   the principles of integrity, dedication, and personalized
@@ -290,17 +289,13 @@ export default function Home() {
                   </p>
                   <div className="mt-8 space-y-4">
                     <div className="flex items-center">
-                      <Phone className="mr-3 h-5 w-5 text-[#D4AF37]" />
-                      <span>(555) 123-4567</span>
-                    </div>
-                    <div className="flex items-center">
                       <Mail className="mr-3 h-5 w-5 text-[#D4AF37]" />
-                      <span>info@harrisonblackwell.com</span>
+                      <span>info@stevenhamsworth.com</span>
                     </div>
                     <div className="flex items-center">
                       <MapPin className="mr-3 h-5 w-5 text-[#D4AF37]" />
                       <span>
-                        1234 Legal Avenue, Suite 500, New York, NY 10001
+                        Madrid, Spain
                       </span>
                     </div>
                     <div className="flex items-center">
@@ -351,20 +346,6 @@ export default function Home() {
                       <input
                         type="email"
                         id="email"
-                        className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#D4AF37] focus:outline-none"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="phone"
-                        className="mb-1 block text-sm font-medium text-gray-700"
-                      >
-                        Phone
-                      </label>
-                      <input
-                        type="tel"
-                        id="phone"
                         className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#D4AF37] focus:outline-none"
                         required
                       />
@@ -523,12 +504,12 @@ const practiceAreas = [
 
 const attorneys = [
   {
-    name: "Jonathan Harrison",
+    name: "Steven Hemsworth",
     title: "Managing Partner",
     description:
-      "With over 30 years of experience in corporate law and litigation, Jonathan leads our firm with distinction.",
+      "Steven Hemsworth leads the firm with distinction, combining deep legal experience with a practical, client-focused approach.",
     image: "/placeholder.svg?height=600&width=400",
-    slug: "jonathan-harrison",
+    slug: "steven-hemsworth",
   },
   {
     name: "Elizabeth Blackwell",
@@ -551,7 +532,7 @@ const attorneys = [
 const testimonials = [
   {
     quote:
-      "Harrison, Blackwell & Associates provided exceptional representation in our corporate merger. Their attention to detail and strategic approach were invaluable.",
+      "Steven Hamsworth & Asociados provided exceptional representation. Their attention to detail and strategic approach were invaluable.",
     name: "Sarah Johnson",
     case: "Corporate Merger",
   },

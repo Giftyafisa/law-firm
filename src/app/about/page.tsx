@@ -47,28 +47,25 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    Harrison, Blackwell & Associates was founded in 1998 by
-                    Jonathan Harrison and Elizabeth Blackwell, two attorneys who
+                    Steven Hamsworth & Asociados was founded by
+                    Steven Hemsworth, an attorney who
                     shared a vision of creating a law firm that combined legal
                     excellence with personalized client service.
                   </p>
                   <p>
-                    Beginning with just five attorneys in a small office in
-                    downtown New York, our firm has grown to include over 50
-                    legal professionals across three offices. Throughout our
-                    expansion, we have maintained our founding principles of
+                    Beginning in Spain, our firm is built on the founding principles of
                     integrity, dedication, and results-oriented representation.
                   </p>
                   <p>
-                    Over the past 25 years, we have established ourselves as a
-                    leading law firm in the region, known for our expertise
+                    We have established ourselves as a
+                    trusted law firm in Spain, known for our expertise
                     across multiple practice areas and our commitment to
                     achieving favorable outcomes for our clients.
                   </p>
                   <p>
-                    Today, Harrison, Blackwell & Associates serves a diverse
+                    Today, Steven Hamsworth & Asociados serves a diverse
                     clientele ranging from individuals and small businesses to
-                    Fortune 500 companies and international corporations. Our
+                    international corporations. Our
                     growth and success are testaments to our unwavering
                     dedication to legal excellence and client satisfaction.
                   </p>
@@ -189,7 +186,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    At Harrison, Blackwell & Associates, we believe in giving
+                    At Steven Hamsworth & Asociados, we believe in giving
                     back to the communities we serve. Our commitment to
                     community involvement is an integral part of our {"firm's"}
                     culture and values.
@@ -242,7 +239,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    Harrison, Blackwell & Associates is always seeking talented
+                    Steven Hamsworth & Asociados is always seeking talented
                     legal professionals who share our commitment to excellence
                     and client service. We offer a collaborative work
                     environment where attorneys can grow their practice and
@@ -379,11 +376,11 @@ const values = [
 
 const leadership = [
   {
-    name: "Jonathan Harrison",
-    title: "Founding Partner & Managing Partner",
-    bio: "Jonathan Harrison has over 30 years of experience in corporate law and complex commercial litigation. As the firm's managing partner, he oversees the strategic direction of the firm while maintaining an active practice focused on high-stakes business disputes and corporate governance matters.",
-    education: "J.D., Harvard Law School; B.A., Yale University",
-    barAdmissions: "New York, Connecticut, U.S. Supreme Court",
+    name: "Steven Hemsworth",
+    title: "Founder & Managing Attorney",
+    bio: "Steven Hemsworth provides strategic counsel in corporate law and complex commercial matters, guiding the firm's direction while maintaining a client-focused practice.",
+    education: "Law degree; University of Madrid",
+    barAdmissions: "Spain",
     awards:
       "Named to Best Lawyers in America for 15 consecutive years; Chambers USA Leading Individual",
     image: "/placeholder.svg?height=600&width=400",

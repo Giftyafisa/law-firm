@@ -16,7 +16,6 @@ export default function ScheduleConsultationPage() {
     firstName: "",
     lastName: "",
     email: "",
-    phone: "",
     practiceArea: "",
     date: "",
     time: "",
@@ -146,7 +145,7 @@ export default function ScheduleConsultationPage() {
                 </div>
                 <h2 className="mb-4 text-2xl font-bold text-[#0A2342]">Consultation Scheduled Successfully!</h2>
                 <p className="mb-6 text-gray-600">
-                  Thank you for scheduling a consultation with Harrison, Blackwell & Associates. We have received your
+                  Thank you for scheduling a consultation with Steven Hamsworth & Asociados. We have received your
                   request for a consultation on <strong>{formData.date}</strong> at <strong>{formData.time}</strong>.
                 </p>
                 <p className="mb-8 text-gray-600">
@@ -255,21 +254,6 @@ export default function ScheduleConsultationPage() {
                       </div>
 
                       <div>
-                        <label htmlFor="phone" className="mb-1 block text-sm font-medium text-gray-700">
-                          Phone <span className="text-red-500">*</span>
-                        </label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          name="phone"
-                          value={formData.phone}
-                          onChange={handleInputChange}
-                          className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#D4AF37] focus:outline-none"
-                          required
-                        />
-                      </div>
-
-                      <div>
                         <label htmlFor="practiceArea" className="mb-1 block text-sm font-medium text-gray-700">
                           Practice Area <span className="text-red-500">*</span>
                         </label>
@@ -303,7 +287,6 @@ export default function ScheduleConsultationPage() {
                             !formData.firstName ||
                             !formData.lastName ||
                             !formData.email ||
-                            !formData.phone ||
                             !formData.practiceArea
                           }
                         >
@@ -443,20 +426,6 @@ export default function ScheduleConsultationPage() {
                               Video Conference
                             </label>
                           </div>
-                          <div className="flex items-center">
-                            <input
-                              type="radio"
-                              id="phone"
-                              name="preferredMethod"
-                              value="phone"
-                              checked={formData.preferredMethod === "phone"}
-                              onChange={handleInputChange}
-                              className="h-4 w-4 border-gray-300 text-[#D4AF37] focus:ring-[#D4AF37]"
-                            />
-                            <label htmlFor="phone" className="ml-2 block text-gray-700">
-                              Phone Consultation
-                            </label>
-                          </div>
                         </div>
                       </div>
 
@@ -468,9 +437,6 @@ export default function ScheduleConsultationPage() {
                           </p>
                           <p>
                             <strong>Email:</strong> {formData.email}
-                          </p>
-                          <p>
-                            <strong>Phone:</strong> {formData.phone}
                           </p>
                           <p>
                             <strong>Practice Area:</strong> {formData.practiceArea}
@@ -487,7 +453,7 @@ export default function ScheduleConsultationPage() {
                               ? "In-Person Consultation"
                               : formData.preferredMethod === "video"
                                 ? "Video Conference"
-                                : "Phone Consultation"}
+                                : "Video Conference"}
                           </p>
                         </div>
                       </div>
@@ -659,6 +625,6 @@ const faqs = [
   {
     question: "Can I schedule a virtual consultation instead of coming to your office?",
     answer:
-      "Yes, we offer consultations via video conference or telephone for clients who prefer remote meetings. Our secure platforms ensure confidentiality while providing the convenience of meeting from your home or office.",
+      "Yes, we offer consultations via secure video conference for clients who prefer remote meetings. Our secure platforms ensure confidentiality while providing the convenience of meeting from your home or office.",
   },
 ]

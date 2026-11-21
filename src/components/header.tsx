@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -13,7 +14,15 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
-          <Link href="/" className="mr-6 flex items-center">
+          <Link href="/" className="mr-6 flex items-center gap-3">
+            <Image
+              src="/firm-logo.png"
+              alt="Steven Hamsworth & Asociados"
+              width={48}
+              height={48}
+              className="h-12 w-12 shrink-0 object-contain"
+              priority
+            />
             <span className="text-xl font-bold text-[#0A2342]">Steven Hamsworth & Asociados</span>
           </Link>
         </div>

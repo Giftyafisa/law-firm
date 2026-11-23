@@ -42,7 +42,7 @@ export default function PracticeAreasPage() {
                 Our Legal Expertise
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-                Steven Hamsworth & Asociados offers exceptional legal
+                MERIDIAN LAW FIRM offers exceptional legal
                 representation across a diverse range of practice areas. Our
                 attorneys combine deep legal knowledge with industry-specific
                 expertise to deliver tailored solutions for our clients.
@@ -128,7 +128,7 @@ export default function PracticeAreasPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    At Steven Hamsworth & Asociados, we understand that each
+                    At MERIDIAN LAW FIRM, we understand that each
                     client and legal matter is unique. Our approach is centered
                     on developing a deep understanding of your specific
                     situation, objectives, and concerns.

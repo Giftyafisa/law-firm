@@ -110,7 +110,7 @@ export default async function PracticeAreaDetailPage({
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-12 text-center">
               <h2 className="text-3xl font-bold tracking-tight text-[#0A2342] sm:text-4xl">
-                Why Choose Steven Hamsworth & Asociados
+                Why Choose MERIDIAN LAW FIRM
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
                 Our approach to {practiceArea.title.toLowerCase()} sets us apart

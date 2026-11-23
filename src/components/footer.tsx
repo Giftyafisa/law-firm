@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-lg font-bold">Steven Hamsworth & Asociados</h3>
+            <h3 className="mb-4 text-lg font-bold">MERIDIAN LAW FIRM</h3>
             <p className="mb-4 text-gray-300">
               A full-service law firm committed to providing exceptional legal representation since 1998.
             </p>
@@ -107,7 +107,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-gray-700 pt-8">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-gray-300">
-              &copy; {new Date().getFullYear()} Steven Hamsworth & Asociados. All rights reserved.
+              &copy; {new Date().getFullYear()} MERIDIAN LAW FIRM. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy-policy" className="text-sm text-gray-300 hover:text-white">

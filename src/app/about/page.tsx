@@ -47,7 +47,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    Steven Hamsworth & Asociados was founded by
+                    MERIDIAN LAW FIRM was founded by
                     Steven Hemsworth, an attorney who
                     shared a vision of creating a law firm that combined legal
                     excellence with personalized client service.
@@ -63,7 +63,7 @@ export default function AboutPage() {
                     achieving favorable outcomes for our clients.
                   </p>
                   <p>
-                    Today, Steven Hamsworth & Asociados serves a diverse
+                    Today, MERIDIAN LAW FIRM serves a diverse
                     clientele ranging from individuals and small businesses to
                     international corporations. Our
                     growth and success are testaments to our unwavering
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    At Steven Hamsworth & Asociados, we believe in giving
+                    At MERIDIAN LAW FIRM, we believe in giving
                     back to the communities we serve. Our commitment to
                     community involvement is an integral part of our {"firm's"}
                     culture and values.
@@ -239,7 +239,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="mt-6 space-y-4 text-gray-600">
                   <p>
-                    Steven Hamsworth & Asociados is always seeking talented
+                    MERIDIAN LAW FIRM is always seeking talented
                     legal professionals who share our commitment to excellence
                     and client service. We offer a collaborative work
                     environment where attorneys can grow their practice and

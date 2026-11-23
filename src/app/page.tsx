@@ -111,7 +111,7 @@ export default function Home() {
                   A Legacy of Legal Excellence Since 1998
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
-                  For over two decades, Steven Hamsworth & Asociados has
+                  For over two decades, MERIDIAN LAW FIRM has
                   been providing exceptional legal representation to individuals
                   and businesses throughout the region. Our firm was founded on
                   the principles of integrity, dedication, and personalized
@@ -532,7 +532,7 @@ const attorneys = [
 const testimonials = [
   {
     quote:
-      "Steven Hamsworth & Asociados provided exceptional representation. Their attention to detail and strategic approach were invaluable.",
+      "MERIDIAN LAW FIRM provided exceptional representation. Their attention to detail and strategic approach were invaluable.",
     name: "Sarah Johnson",
     case: "Corporate Merger",
   },

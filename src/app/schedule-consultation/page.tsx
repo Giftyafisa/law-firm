@@ -145,7 +145,7 @@ export default function ScheduleConsultationPage() {
                 </div>
                 <h2 className="mb-4 text-2xl font-bold text-[#0A2342]">Consultation Scheduled Successfully!</h2>
                 <p className="mb-6 text-gray-600">
-                  Thank you for scheduling a consultation with Steven Hamsworth & Asociados. We have received your
+                  Thank you for scheduling a consultation with MERIDIAN LAW FIRM. We have received your
                   request for a consultation on <strong>{formData.date}</strong> at <strong>{formData.time}</strong>.
                 </p>
                 <p className="mb-8 text-gray-600">

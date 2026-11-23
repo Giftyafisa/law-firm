@@ -17,13 +17,13 @@ export default function Header() {
           <Link href="/" className="mr-6 flex items-center gap-3">
             <Image
               src="/firm-logo.png"
-              alt="Steven Hamsworth & Asociados"
+              alt="MERIDIAN LAW FIRM"
               width={48}
               height={48}
               className="h-12 w-12 shrink-0 object-contain"
               priority
             />
-            <span className="text-xl font-bold text-[#0A2342]">Steven Hamsworth & Asociados</span>
+            <span className="text-xl font-bold text-[#0A2342]">MERIDIAN LAW FIRM</span>
           </Link>
         </div>
 
